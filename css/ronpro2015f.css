@@ -51,11 +51,23 @@ h3{
 [data-role=slide-list] > li nav{
   margin-top: 2rem;
 }
-[data-role=slide-list] > li nav a:after{
+[data-role=slide-list] > li nav > ul{
+  padding-left: 0;
+  display: flex;
+}
+[data-role=slide-list] > li nav > ul > li{
+  display: block;
+  list-style: none;
+  margin-left: .5rem;
+}
+[data-role=slide-list] > li nav > ul > li:first-child{
+  margin-left: 0;
+}
+[data-role=slide-list] > li nav li:after{
   content: "/";
   margin-left: .5rem;
 }
-[data-role=slide-list] > li nav a:last-child:after{
+[data-role=slide-list] > li nav li:last-child:after{
   content: "";
 }
 footer{
