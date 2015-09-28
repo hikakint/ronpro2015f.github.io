@@ -70,7 +70,7 @@ var three = succ(succ(succ(zero)));
 
 ## サンプルコードの入手
 
-1. [このレポジトリ](https://github.com/ronpro2015f/02/) を fork する
+1. [このレポジトリ](https://github.com/ronpro2015f/lecture02/) を fork する
 2. 1 で作成したレポジトリを clone する
 3. clone したら "xxx_working_branch" というブランチを作成する
 4. clone した index.html を Firefox で表示する
