@@ -160,10 +160,6 @@ divide(1, Math.exp(multiply(0.7, -1)) + 1)
 
 ![シグモイド関数](img/sigmoid.png)
 
-----
-
-![計算順序](img/sigmoid_with_variables.png)
-
 ---
 
 ## 変数：計算の途中経過の記憶
@@ -172,9 +168,12 @@ divide(1, Math.exp(multiply(0.7, -1)) + 1)
 var x = 0.7;
 var minusX = multiply(0.7, -1);
 var exp = Math.exp(minusX);
-var denominator = add(1, exp);
-divide(1, denominator);
+divide(1, add(1, exp));
 ~~~
+
+----
+
+![計算順序](img/sigmoid_with_variables.png)
 
 ----
 
