@@ -47,6 +47,12 @@
 
 ---
 
+## アンケート
+
+[こちらからお願いします](https://docs.google.com/forms/d/1gkUJpyxefLVY7wNcD8wCwpYcAgSU69DkCSxpy2DGz80/viewform)
+
+---
+
 ## 今日の内容
 
 * 環境の作成
@@ -65,7 +71,7 @@
 
 ----
 
-## アカウントを教えてください → [http://goo.gl/b2dJm9](http://goo.gl/b2dJm9)
+## アカウントを教えてください → [フォーム](https://docs.google.com/forms/d/1KRSj6cIRAyoGeUs7eVIm_J957TLgjhYoxm4zvfgp96w/viewform)
 
 ---
 
