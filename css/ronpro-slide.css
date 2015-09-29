@@ -34,3 +34,18 @@ body, .reveal{
   box-shadow: none;
   margin-top: 2rem;
 }
+.reveal pre{
+  width: 100%;
+}
+
+.reveal pre + p{
+  margin-top: 4rem;
+}
+
+.reveal pre code{
+  padding: 1.5rem;
+}
+
+.reveal table{
+  font-size: 88%;
+}
