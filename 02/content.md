@@ -171,6 +171,9 @@ var exp = Math.exp(minusX);
 divide(1, add(1, exp));
 ~~~
 
+* プログラムを書いた時点では値が決定されていないが、計算に必要なものを変数とする
+* 実行されると、変数の値が決まるようにプログラムを書く
+
 ----
 
 ![計算順序](img/sigmoid_with_variables.png)
@@ -193,6 +196,20 @@ var e = 10;
 
 ### 代入：変数と値の結びつけ
 
+~~~javascript
+var x = 0.7;
+var minusX = multiply(0.7, -1);
+var exp = Math.exp(minusX);
+~~~
+
+* 代入演算子 (=) を用いる
+* 右辺の評価値が、左辺の変数へと代入される
+* 代入演算自身も評価値を持つ（代入された値）
+
+----
+
+### 代入：変数と値の結びつけ
+
 ![変数の代入](img/assignment.png)
 
 ----
@@ -200,14 +217,15 @@ var e = 10;
 ### 参照：文の中で変数を利用すること
 
 ~~~javascript
-var a = 1;
-var b = 2;
-var c = a + b;
-var ix = multiply(a, c);
-var x = add(ix, b);
-var denominator = add(multiply(x, -1), a);
-divide(1, denominator);
+var x = 0.7;
+var minusX = multiply(0.7, -1);
+var exp = Math.exp(minusX);
+divide(1, add(1, exp));
 ~~~
+
+* 変数名が書かれた箇所も、評価対象
+* 評価値は変数に代入されている値
+* Math.exp(minusX) は、まず minusX を評価する
 
 ---
 
