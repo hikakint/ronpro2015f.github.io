@@ -458,6 +458,7 @@ var c = Math.max(12345, 1); // 12345 が代入される
 * 式中の関数 exp の計算は Math.exp 関数を利用する
 * 関数は js/sigmoid.js に記述すること
 * 記述したらコミットすること
+* 正しいかどうかは[こちら](/lecture02/sigmoid.html)で確認できる
 
 ![シグモイド関数](img/sigmoid.png)
 
